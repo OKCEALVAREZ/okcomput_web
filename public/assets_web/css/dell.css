@@ -1,0 +1,73 @@
+body {
+    background-image: url('../../images/evento-dell/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+.mt-3 {
+    margin-top: 20px;
+}
+.mt-4 {
+    margin-top: 40px;
+}
+.mb-2 {
+    margin-bottom: 10px;
+}
+.mb-3 {
+    margin-bottom: 20px;
+}
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+body img.logo {
+    width: 60%;
+    padding: 10px 20px;
+}
+body img.titulo {
+    width: 100%;
+}
+body * {
+    color: #fff;
+}
+body form {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .2);
+}
+body form input.form-control {
+    height: 38px !important;
+}
+body form input.form-control,
+body form button {
+    border-radius: 0 !important;
+}
+body form .checkbox-inline label {
+    font-weight: normal;
+}
+label .icheckbox_minimal-red,
+label .iradio_minimal-red {
+    background-color: #fff;
+}
+label .iradio_minimal-red {
+    border-radius: 50%;
+}
+.form-titulo {
+    font-size: 16px;
+}
+
+/* Scroll */
+::-webkit-scrollbar{
+    width: 9px;
+    background-color: #fff;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, .3);
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #b8b8b8;
+}
