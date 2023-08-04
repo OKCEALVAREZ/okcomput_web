@@ -44,6 +44,11 @@ class HomeController extends Controller
         return view('microsoft', get_defined_vars());
     }
 
+    public function microsoftClipchamp() {
+        $temp_page = 'home-index-2';
+        return view('microsoft-clipchamp', get_defined_vars());
+    }
+
     public function windows()
     {
         $temp_page = 'home-index-2';

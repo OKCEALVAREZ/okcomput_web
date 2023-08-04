@@ -33,6 +33,7 @@ Route::get('/', 'HomeController@inicio')->name('inicio');
 Route::get('microsoft365', 'HomeController@office365')->name('microsoft365');
 Route::get('office2021', 'HomeController@office2021')->name('office2021');
 Route::get('microsoft', 'HomeController@microsoft')->name('microsoft');
+Route::get('microsoft-clipchamp', 'HomeController@microsoftClipchamp')->name('microsoft-clipchamp');
 Route::get('windows', 'HomeController@windows')->name('windows');
 Route::get('commercial-office', 'HomeController@commercialOffice')->name('commercial-office');
 Route::get('novedades', 'HomeController@novedades')->name('novedades');

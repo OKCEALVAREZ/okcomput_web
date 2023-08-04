@@ -19,6 +19,7 @@
                                         <li class="level1 first parent"><a href="{{ route('microsoft365') }}"><span>Microsoft 365</span></a></li>
                                         <li class="level1 first parent"><a href="{{ route('office2021') }}"><span>Office 2021</span></a></li>
                                         <li class="level1 first parent"><a href="{{ route('microsoft') }}"><span>Microsoft</span></a></li>
+                                        <li class="level1 first parent"><a href="{{ route('microsoft-clipchamp') }}"><span>Microsoft Clipchamp</span></a></li>
                                         <li class="level1 first parent"><a href="{{ route('commercial-office') }}"><span>Commercial Office</span></a></li>
                                     </ul>
                                 </li>
